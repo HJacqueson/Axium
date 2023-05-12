@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
     <!-- Favicon -->
+  
     <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
     
     <!-- Map CSS -->
@@ -23,13 +24,15 @@
   <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light shadow" style="background-color: #fdeee5;">
       <div class="container">
     
         <!-- Brand -->
         <a class="navbar-brand" href="./Axium.html">
-          <!-- <img src="./assets/img/brand.svg" class="navbar-brand-img" alt="..."> -->
-          Axium Santé
+
+          <!-- Brand -->
+          <img src="./assets/img/logo-orange.png" alt="logo Axium Santé" class="img-fluid w-50">
+        
         </a>
     
         <!-- Toggler -->
@@ -47,28 +50,28 @@
     
           <!-- Navigation -->
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarLandings" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+            <li class="nav-item">
+              <a class="nav-link" id="navbarLandings"  href="#accueil" aria-haspopup="true" aria-expanded="false" data-scroll='{"offset": 0}'>
                 Accueil
               </a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+            <li class="nav-item">
+              <a class="nav-link" href="#SAS" aria-haspopup="true" aria-expanded="false" data-scroll='{"offset": 0}'>
                 SAS
               </a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link" href="#conseil" aria-haspopup="true" aria-expanded="false" data-scroll='{"offset": 0}'>
                 Conseil & Accompagnement
               </a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link" href="#equipe" aria-haspopup="true" aria-expanded="false" data-scroll='{"offset": 0}'>
                 Qui sommes nous ?
               </a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link" href="#contact" aria-haspopup="true" aria-expanded="false" data-scroll='{"offset": 0}'>
                   Contact
                 </a>
             </li>
@@ -85,7 +88,7 @@
           <div class="col-12 col-md-5 col-lg-6 order-md-2">
 
             <!-- Image -->
-            <img src="assets/img/illustrations/illustration-2.png" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0" alt="..." data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/logo-axium-santé.png" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0" alt="..." data-aos="fade-up" data-aos-delay="100">
 
           </div>
           <div class="col-12 col-md-7 col-lg-6 order-md-1" data-aos="fade-up">
@@ -116,7 +119,7 @@
     </section>
 
     <!-- FEATURES -->
-    <section class="py-8 py-md-11 border-bottom">
+    <section class="py-8 py-md-11" id="accueil">
       <div class="container">
         <div class="row">
             <h2 class="text-center">Nos <span class="text-primary">Missions</span></h2>
@@ -162,21 +165,21 @@
     </section>
 
     <!-- PARTENAIRES -->
-    <section class="py-6 py-md-8 bg-gradient-light-white">
+    <h2 class="text-center">Nos <span class="text-primary">Partenaires</span></h2>
+    <section class="py-6 py-md-8" style="background-color: #fdeee5;">
         <div class="container">
             <div class="row d-flex align-items-center justify-content-center">
-                <h2 class="text-center">Nos <span class="text-primary">Partenaires</span></h2>
 
                 <div class="d-block col-4 col-md-3 col-lg-2 mx-5" data-aos="fade-up">
                     <!-- Brand -->
                   <div class="img-fluid text-dark">
-                    <img src="./assets/img/Anea.png" alt="Logo Anea">
+                    <img src="assets/img/Anea.png" alt="Logo Anea">
                   </div>
                 </div>
                 <div class="d-block col-4 col-md-3 col-lg-2 mx-5" data-aos="fade-up">
                     <!-- Brand -->
                     <div class="img-fluid text-dark">
-                        <img src="./assets/img/Conex.png" alt="Logo Conex">
+                        <img src="assets/img/Conex.png" alt="Logo Conex">
                     </div>
                 </div>
             </div>
@@ -185,7 +188,7 @@
     </section>
 
     <!-- A PROPOS DE CONEX -->
-    <section class="py-6 py-md-8 bg-gradient-light-white">
+    <section class="py-6 py-md-8 bg-gradient-light-white" id="SAS">
         <div class="container">
           <div class="row">
             <h2 class="text-center">SA<span class="text-primary">S</span></h2>
@@ -198,10 +201,10 @@
   
                     <!-- Slider -->
                     <div class="card-img-slider align-items-center" data-flickity='{"fade": true, "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "asNavFor": "#blogSlider", "draggable": false}'>
-                      <a class="card-img-start position-absolute d-block w-100" style="background-image: url(assets/img/illustrations/Conex.png); background-repeat: no-repeat; background-position: center;" href="#!">
+                      <a class="card-img-start position-absolute d-block w-100" style="background-image: url(assets/img/Conex.png); background-repeat: no-repeat; background-position: center;" href="#!">
   
                         <!-- Image (placeholder) -->
-                        <img src="" alt="Logo Conex" class="img-fluid d-md-none invisible card-img-start">
+                        <img src="assets/img/Conex.png" alt="Logo Conex" class="img-fluid d-md-none invisible card-img-start">
                       </a>                      
                     </div>
                   </div>
@@ -365,250 +368,552 @@
       </div> <!-- / .container -->
     </section>
 
-    <!-- SHAPE -->
-    <div class="position-relative mt-n8">
-      <div class="shape shape-bottom shape-fluid-x text-gray-200">
-        <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>      </div>
-    </div>
-
-    <!-- STATS -->
-    <section class="pt-12 pt-md-13 bg-gray-200">
+    <!-- FORMATION -->
+    <section class="pt-9 pb-10 py-md-11" id="conseil">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-md-5 col-lg-6 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
 
-            <!-- Image -->
-            <img src="assets/img/illustrations/illustration-8.png" alt="..." class="img-fluid mb-6 mb-md-0">
-
-          </div>
-          <div class="col-12 col-md-7 col-lg-6 order-md-1">
 
             <!-- Heading -->
             <h2>
-              Stay focused on your business. <br>
-              <span class="text-primary">Let us handle the design</span>.
+              Découvrez nos <span class="text-primary">Formations</span> et <span class="text-primary">Conférences</span>
             </h2>
 
             <!-- Text -->
-            <p class="fs-lg text-gray-700 mb-6">
-              You have a business to run. Stop worring about cross-browser bugs, designing new pages, keeping your components up to date. Let us do that for you.
+            <p class="fs-lg text-muted">
+              Grâce nos fromations, nos conférences, et leurs diverses modalités, nous vous proposons une approche sur-mesure privilégiant la pratique et la mise en mouvement des équipes.
             </p>
 
-            <!-- Stats -->
-            <div class="d-flex">
-              <div class="pe-5">
-                <h3 class="mb-0">
-                  <span data-countup='{"startVal": 0}' data-to="100" data-aos data-aos-id="countup:in"></span>%
-                </h3>
-                <p class="text-gray-700 mb-0">
-                  Satisfaction
-                </p>
-              </div>
-              <div class="border-start border-gray-300"></div>
-              <div class="px-5">
-                <h3 class="mb-0">
-                  <span data-countup='{"startVal": 0}' data-to="24" data-aos data-aos-id="countup:in"></span>/
-                  <span data-countup='{"startVal": 0}' data-to="7" data-aos data-aos-id="countup:in"></span>
-                </h3>
-                <p class="text-gray-700 mb-0">
-                  Support
-                </p>
-              </div>
-              <div class="border-start border-gray-300"></div>
-              <div class="ps-5">
-                <h3 class="mb-0">
-                  <span data-countup='{"startVal": 0}' data-to="100" data-aos data-aos-id="countup:in"></span>k+
-                </h3>
-                <p class="text-gray-700 mb-0">
-                  Sales
-                </p>
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center mb-5">
+          <div class="col-12 col-md-4">
+
+            <!-- Card -->
+            <div class="card card-border card-border-xl border-primary shadow-light-lg mb-6 mb-md-0 lift lift-lg">
+              <div class="card-body">
+
+                <!-- Badge -->
+                <h6 class="fw-bold text-uppercase text-center mb-5">Formations <br>Présentiel / Distanciel</h6>
+
+                <!-- Text -->
+                <ul class="mb-6 mb-md-8">
+                  <li class="text-muted">
+                    Présentiel : 1 journéé (9h à 17h)
+                  </li>
+                  <li class="text-muted">
+                    Distanciel : 2 demi-journée de 4h (matinée et/ou après midi)*
+                  </li>
+                </ul>
+                <!-- List -->
+                <div class="d-flex">
+
+                  <!-- Badge -->
+                  <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p>
+                    Gestion du risque infectieux à domicile
+                  </p>
+
+                </div>
+                <div class="d-flex">
+
+                  <!-- Badge -->
+                  <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p>
+                    Covid aigu et Covid long
+                  </p>
+
+                </div>
+                <div class="d-flex">
+
+                  <!-- Badge -->
+                  <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p>
+                    Infections et cathéters
+                  </p>
+
+                </div>
+                <div class="d-flex">
+
+                  <!-- Badge -->
+                  <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p>
+                    Infections et immunodépression
+                  </p>
+
+                </div>
+                <div class="d-flex">
+
+                  <!-- Badge -->
+                  <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p>
+                    Infections et nutrition
+                  </p>
+
+                </div>
+                <div class="d-flex">
+
+                    <!-- Badge -->
+                    <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </span>
+
+                    <!-- Text -->
+                    <p>
+                      Bon usage et gestion pratique des antibiotiques
+                    </p>
+
+                </div>
+                <div class="d-flex">
+
+                  <!-- Badge -->
+                  <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p>
+                    Préparation aux nouvelles pandémies
+                  </p>
+
+               </div>
+               <p class="text-muted mb-0">*Chat disponible durant la formation</p>
+
               </div>
             </div>
+
+          </div>
+          <div class="col-12 col-md-4">
+
+            <!-- Card -->
+            <div class="card card-border card-border-xl border-primary shadow-light-lg lift lift-lg">
+              <div class="card-body">
+
+                <!-- Badge -->
+                <h6 class="fw-bold text-uppercase text-center mb-5">Conférences</h6>
+
+                <!-- Text -->
+
+                <p class="text-muted text-center mb-6 mb-md-8">
+                  En présentiel, d'une durée de 3h
+                </p>
+
+                <!-- List -->
+                <div class="d-flex">
+
+                  <!-- Badge -->
+                  <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p>
+                    Une ou plusieurs thématiques abordées
+                  </p>
+
+                </div>
+                <div class="d-flex">
+
+                  <!-- Badge -->
+                  <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p>
+                    Sensibilisation aux enjeux abordés
+                  </p>
+
+                </div>
+                <div class="d-flex">
+
+                  <!-- Badge -->
+                  <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p>
+                    Perspectives des thématiques abordées
+                  </p>
+
+                </div>
+                <div class="d-flex">
+
+                  <!-- Badge -->
+                  <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p>
+                    Cas pratiques
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-12 col-md-4">
+
+            <!-- Card -->
+            <div class="card card-border card-border-xl border-primary shadow-light-lg lift lift-lg">
+              <div class="card-body">
+
+                <!-- Badge -->
+                <h6 class="fw-bold text-uppercase text-center mb-5">Présentation<br> en COMEX</h6>
+
+                <!-- Text -->
+
+                <p class="text-muted text-center mb-6 mb-md-8">
+                  En distanciel,
+                  en partenariat avec l'outil COMEX,
+                  d'une durée d'1h30
+                </p>
+
+                <!-- List -->
+                <div class="d-flex">
+
+                  <!-- Badge -->
+                  <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p>
+                    Approche 360°(technique, économique et politique) des thématiques abordées
+                  </p>
+
+                </div>
+                <div class="d-flex">
+
+                  <!-- Badge -->
+                  <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p>
+                    Efficience de la formation par des cas pratiques
+                  </p>
+
+                </div>
+                <div class="d-flex">
+
+                  <!-- Badge -->
+                  <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p>
+                    Perspectives et anticipation des enjeux à venir
+                  </p>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12">
+
+
+            <!-- Footer -->
+            <h3>
+              Cadre d’<span class="text-primary">Intervention</span>
+            </h3>
+
+            <!-- Text -->
+            <p class="text-gray-700">
+              Auto-évaluation initiale, Cadre théorique, Cas pratiques cliniques et interactifs, “A faire et à ne pas faire”, Auto-évaluation finale, Questions réponses, Document de synthèse final envoyé à chaque participant (optionnel)
+            </p>
 
           </div>
         </div> <!-- / .row -->
       </div> <!-- / .container -->
     </section>
 
-    <!-- PRICING -->
-    <section class="pt-9 pt-md-12 bg-gray-200">
+    <!-- SHAPE -->
+        
+    <div class="position-relative mt-n8">
+      <div class="shape shape-bottom shape-fluid-x text-gray-200">
+        <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z" fill="currentColor"/></svg>      </div>
+    </div>
+
+    <!-- CONSEIL -->
+
+    <section class="pt-6 pt-md-8 bg-gray-200">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+
+            <!-- Heading -->
+            <h2 class="text-center">
+              Notre service <span class="text-primary">Conseil</span>
+            </h2>
+
+            <!-- Divider -->
+            <!-- <hr class="hr-md mb-7"> -->
+
+            <!-- Text -->
+            <p class="fs-lg text-muted">
+              Notre service de conseil propose un programme d'accompagnement sur crise sanitaires graves, CPTS (Mission 4)<br>
+              Ainsi qu'une mise en place de protocoles de prévention et d’intervention en cas de crise en driection des :
+            </p>
+
+            <!-- List -->
+            <ul class="list-unstyled mx-10">
+              <li class="d-flex">
+
+                <!-- Check -->
+                <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                  <i class="fe fe-check"></i>
+                </div>
+
+                <!-- Text -->
+                <p>
+                  Entreprises
+                </p>
+
+              </li>
+              <li class="d-flex">
+
+                <!-- Check -->
+                <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                  <i class="fe fe-check"></i>
+                </div>
+
+                <!-- Text -->
+                <p>
+                  Collectivités
+                </p>
+
+              </li>
+              <li class="d-flex">
+
+                <!-- Check -->
+                <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                  <i class="fe fe-check"></i>
+                </div>
+
+                <!-- Text -->
+                <p>
+                  Établissements de Santé
+                </p>
+
+              </li>
+            </ul>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- EQUIPE -->
+    <section class="pt-10 pt-lg-9 pb-8 bg-gray-200" id="equipe">
+      <div class="container">
+        <h2 class="text-center">
+          Notre <span class="text-primary">Équipe</span> <br>
+        </h2>
+        <!-- Heading -->
+        <h3>
+          Jérôme <span class="text-primary">Larché</span> <br>
+        </h3>
+
+        <!-- Text -->
+        <p class="fs-lg text-gray-700 mb-6">
+          Médecin Expert avec 20 ans d'expérience en Réanimation, Médecine Interne et Maladies Infectieuses (résistance aux antimicrobiens, infections complexes, problématiques Covid aiguës et longues) :
+        </p>
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-6 col-lg-5">
+
+            
+
+            <!-- List -->
+            <div class="row">
+              <div class="col-12">
+
+                <!-- Item -->
+                <div class="d-flex">
+
+                  <!-- Check -->
+                  <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+
+                  <!-- Text -->
+                  <p class="text-gray-700">
+                    Expérience tant dans les secteurs médicaux publics que privés (hôpitaux et cliniques) en tant que médecin-chef (recherche clinique, consultations cliniques, encadrement d'étudiants en médecine et gestion du personnel médical)
+                  </p>
+
+                </div>
+
+                <!-- Item -->
+                <div class="d-flex">
+
+                  <!-- Check -->
+                  <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+
+                  <p class="text-gray-700">
+                    Expérience médicale dans des structures gouvernementales (hôpitaux publics, Ambassade de France) et non gouvernementales (ONG internationales, associations locales), en France et à l'étranger
+                  </p>
+
+                </div>
+
+              </div>
+              <div class="col-12">
+
+                <!-- Item -->
+                <div class="d-flex">
+
+                  <!-- Check -->
+                  <span class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+
+                  <!-- Text -->
+                  <p class="text-gray-700">
+                    Intérêt et connaissance approfondie des technologies et innovations de la santé : télémédecine (téléexpertise, téléconsultation), phagothérapie
+                  </p>
+
+                </div>
+
+                <!-- Item -->
+                <div class="d-flex">
+
+                  <!-- Check -->
+                  <div class="badge badge-rounded-circle bg-primary-soft me-1 me-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+
+                  <!-- Text -->
+                  <p class="text-gray-700">
+                    Connaissance approfondie des politiques de santé françaises
+                  </p>
+
+                </div>
+
+              </div>
+            </div> <!-- / .row -->
+
+          </div>
+          <div class="col-12 col-md-6">
+
+            <!-- Images -->
+            <div class="row">
+              <div class="col-12 me-n5" data-aos="fade-up">
+                <img src="assets/img/jerome-larche.jpg" alt="Jérôme Larché Médecin Expert" class="img-fluid mb-md-14 rounded d-block align-top">
+              </div>
+            </div> <!-- / .row -->
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- FORM -->
+    <section class="pt-8 pt-md-11 pb-8 bg-gray-200" id="contact">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-8 text-center">
 
             <!-- Heading -->
-            <h1>
-              Fair, simple pricing for all.
-            </h1>
+            <h2 class="fw-bold">
+              Contactez <span class="text-primary">Nous !</span>
+            </h2>
 
             <!-- Text -->
-            <p class="lead text-gray-700">
-              All types of businesses need access to development resources, so we give you the option to decide how much you need to use.
+            <p class="fs-lg text-muted mb-7 mb-md-9">
+              Si vous êtes interessés par nos formations, nos conférences, ou pour toutes demandes d'informations complémentaires, n'hésitez pas à nous contacter !
             </p>
-
-            <!-- Form -->
-            <form class="d-flex align-items-center justify-content-center mb-7 mb-md-9">
-
-              <!-- Label -->
-              <span class="text-muted">
-                Annual
-              </span>
-
-              <!-- Switch -->
-              <div class="form-check form-switch mx-3">
-                <input class="form-check-input" type="checkbox" id="billingSwitch" data-toggle="price" data-target=".price">
-              </div>
-
-              <!-- Label -->
-              <span class="text-muted">
-                Monthly
-              </span>
-
-            </form>
 
           </div>
         </div> <!-- / .row -->
-        <div class="row align-items-center gx-0">
-          <div class="col-12 col-md-6">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-12 col-lg-10">
 
-            <!-- Card -->
-            <div class="card rounded-lg shadow-lg mb-6 mb-md-0" style="z-index: 1;" data-aos="fade-up">
+            <!-- Form -->
+            <form>
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="form-group mb-5">
 
-              <!-- Body -->
-              <div class="card-body py-6 py-md-8">
-                <div class="row justify-content-center">
-                  <div class="col-12 col-xl-9">
+                    <!-- Label -->
+                    <label class="form-label" for="contactName">
+                      Vos Nom et Prénom
+                    </label>
 
-                    <!-- Badge -->
-                    <div class="text-center mb-5">
-                      <span class="badge rounded-pill bg-primary-soft">
-                        <span class="h6 fw-bold text-uppercase">Standard</span>
-                      </span>
-                    </div>
-
-                    <!-- Price -->
-                    <div class="d-flex justify-content-center">
-                      <span class="h2 mb-0 mt-2">$</span>
-                      <span class="price display-2 mb-0" data-annual="29" data-monthly="49">29</span>
-                      <span class="h2 align-self-end mb-1">/mo</span>
-                    </div>
-
-                    <!-- Text -->
-                    <p class="text-center text-muted mb-6 mb-md-8">
-                      per seat
-                    </p>
-
-                    <!-- Features -->
-                    <div class="d-flex">
-
-                      <!-- Check -->
-                      <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
-                        <i class="fe fe-check"></i>
-                      </div>
-
-                      <!-- Text -->
-                      <p>
-                        Rich, responsive landing pages
-                      </p>
-
-                    </div>
-                    <div class="d-flex">
-
-                      <!-- Check -->
-                      <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
-                        <i class="fe fe-check"></i>
-                      </div>
-
-                      <!-- Text -->
-                      <p>
-                        100+ styled components
-                      </p>
-
-                    </div>
-                    <div class="d-flex">
-
-                      <!-- Check -->
-                      <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
-                        <i class="fe fe-check"></i>
-                      </div>
-
-                      <!-- Text -->
-                      <p>
-                        Flexible, simple license
-                      </p>
-
-                    </div>
-                    <div class="d-flex">
-
-                      <!-- Check -->
-                      <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
-                        <i class="fe fe-check"></i>
-                      </div>
-
-                      <!-- Text -->
-                      <p>
-                        Speedy build tooling
-                      </p>
-
-                    </div>
-                    <div class="d-flex">
-
-                      <!-- Check -->
-                      <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
-                        <i class="fe fe-check"></i>
-                      </div>
-
-                      <!-- Text -->
-                      <p class="mb-0">
-                        6 months free support included
-                      </p>
-
-                    </div>
+                    <!-- Input -->
+                    <input class="form-control" id="contactName" type="text" placeholder="Nom et Prénom">
 
                   </div>
-                </div> <!-- / .row -->
-              </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group mb-5">
 
-              <!-- Button -->
-              <a href="#!" class="card-btn btn w-100 btn-lg btn-primary">
-                Get it now
-              </a>
+                    <!-- Label -->
+                    <label class="form-label" for="contactEmail">
+                      Votre adresse Mail
+                    </label>
 
-            </div>
-
-          </div>
-          <div class="col-12 col-md-6 ms-md-n3">
-
-            <!-- Card -->
-            <div class="card rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="200">
-
-              <!-- Body -->
-              <div class="card-body py-6 py-md-8">
-                <div class="row justify-content-center">
-                  <div class="col-12 col-xl-10">
-
-                    <!-- Badge -->
-                    <p class="text-center mb-8 mb-md-11">
-                      <span class="badge rounded-pill bg-primary-soft">
-                        <span class="h6 fw-bold text-uppercase">Enterprise</span>
-                      </span>
-                    </p>
-
-                    <!-- Text -->
-                    <p class="lead text-center text-muted mb-0 mb-md-10">
-                      We offer variable pricing with discounts for larger organizations. Get in touch with us and we’ll figure out something that works for everyone.
-                    </p>
+                    <!-- Input -->
+                    <input class="form-control" id="contactEmail" type="email" placeholder="bonjour@domaine.com">
 
                   </div>
-                </div> <!-- / .row -->
-              </div>
+                </div>
+              </div> <!-- / .row -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group mb-7 mb-md-9">
 
-              <!-- Button -->
-              <a href="#!" class="card-btn btn w-100 btn-lg btn-light bg-gray-300 text-gray-700">
-                Contact us
-              </a>
+                    <!-- Label -->
+                    <label class="form-label" for="contactMessage">
+                      Votre Message
+                    </label>
 
-            </div>
+                    <!-- Input -->
+                    <textarea class="form-control" id="contactMessage" rows="5" placeholder="Écrivez ici !"></textarea>
+
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+              <div class="row justify-content-center">
+                <div class="col-auto">
+
+                  <!-- Submit -->
+                  <button type="submit" class="btn btn-primary lift">
+                    Envoyer
+                  </button>
+
+                </div>
+              </div> <!-- / .row -->
+            </form>
 
           </div>
         </div> <!-- / .row -->
@@ -621,165 +926,20 @@
         <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>      </div>
     </div>
 
-    <!-- FAQ -->
-    <section class="pt-15 bg-dark">
-      <div class="container pt-8 pt-md-11">
-        <div class="row">
-          <div class="col-12 col-md-6">
-
-            <!-- Item -->
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-lg badge-rounded-circle bg-success">
-                <span>?</span>
-              </div>
-
-              <div class="ms-5">
-
-                <!-- Heading -->
-                <h4 class="text-white">
-                  Can I use Landkit for my clients?
-                </h4>
-
-                <!-- Text -->
-                <p class="text-muted mb-6 mb-md-8">
-                  Absolutely. The Bootstrap Themes license allows you to build a website for personal use or for a client.
-                </p>
-
-              </div>
-
-            </div>
-
-            <!-- Item -->
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-lg badge-rounded-circle bg-success">
-                <span>?</span>
-              </div>
-
-              <div class="ms-5">
-
-                <!-- Heading -->
-                <h4 class="text-white">
-                  Do I get free updates?
-                </h4>
-
-                <!-- Text -->
-                <p class="text-muted mb-6 mb-md-0">
-                  Yes. We update all of our themes with each Bootstrap update, plus are constantly adding new components, pages, and features to our themes.
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-          <div class="col-12 col-md-6">
-
-            <!-- Item -->
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-lg badge-rounded-circle bg-success">
-                <span>?</span>
-              </div>
-
-              <div class="ms-5">
-
-                <!-- Heading -->
-                <h4 class="text-white">
-                  Is there a money back guarantee?
-                </h4>
-
-                <!-- Text -->
-                <p class="text-muted mb-6 mb-md-8">
-                  Yup! Bootstrap Themes come with a satisfaction guarantee. Submit a return and get your money back.
-                </p>
-
-              </div>
-
-            </div>
-
-            <!-- Item -->
-            <div class="d-flex">
-
-              <!-- Badge -->
-              <div class="badge badge-lg badge-rounded-circle bg-success">
-                <span>?</span>
-              </div>
-
-              <div class="ms-5">
-
-                <!-- Heading -->
-                <h4 class="text-white">
-                  Does it work with Rails? React? Laravel?
-                </h4>
-
-                <!-- Text -->
-                <p class="text-muted mb-6 mb-md-0">
-                  Yes. Landkit has basic CSS/JS files you can include. If you want to enable deeper customization, you can integrate it into your assets pipeline or build processes.
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
-
-    <!-- CTA -->
-    <section class="py-8 py-md-11 bg-dark">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-8 text-center">
-
-            <!-- Badge -->
-            <span class="badge rounded-pill bg-gray-700-soft mb-4">
-              <span class="h6 fw-bold text-uppercase">Get started</span>
-            </span>
-
-            <!-- Heading -->
-            <h1 class="display-4 text-white">
-              Get Landkit and save your time.
-            </h1>
-
-            <!-- Text -->
-            <p class="fs-lg text-muted mb-6 mb-md-8">
-              Stop wasting time trying to do it the "right way" and build a site from scratch. Landkit is faster, easier, and you still have complete control.
-            </p>
-
-            <!-- Button -->
-            <a href="https://themes.getbootstrap.com/product/landkit/" target="_blank" class="btn btn-success lift">
-              Buy it now <i class="fe fe-arrow-right"></i>
-            </a>
-
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
-
-    <!-- SHAPE -->
-    <div class="position-relative">
-      <div class="shape shape-bottom shape-fluid-x text-gray-200">
-        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>      </div>
-    </div>
+  
 
     <!-- FOOTER -->
-    <footer class="py-8 py-md-11 bg-gray-200">
-      <div class="container">
+    <footer class="py-8 py-md-11 pt-15 bg-dark">
+      <div class="container mt-3 mt-md-10 pt-8 pt-md-11">
         <div class="row">
           <div class="col-12 col-md-4 col-lg-3">
     
             <!-- Brand -->
-            <img src="./assets/img/brand.svg" alt="..." class="footer-brand img-fluid mb-2">
+            <img src="./assets/img/logo-blanc.png" alt="logo Axium Santé" class="footer-brand img-fluid mb-2 w-50">
     
             <!-- Text -->
             <p class="text-gray-700 mb-2">
-              A better way to build.
+              Le soin ensemble.
             </p>
     
             <!-- Social -->
@@ -807,151 +967,94 @@
             </ul>
     
           </div>
-          <div class="col-6 col-md-4 col-lg-2">
-    
-            <!-- Heading -->
-            <h6 class="fw-bold text-uppercase text-gray-700">
-              Products
-            </h6>
-    
-            <!-- List -->
-            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Page Builder
-                </a>
-              </li>
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  UI Kit
-                </a>
-              </li>
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Styleguide
-                </a>
-              </li>
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Documentation
-                </a>
-              </li>
-              <li>
-                <a href="#!" class="text-reset">
-                  Changelog
-                </a>
-              </li>
-            </ul>
-    
+          <div
+            class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0"
+          >
+            <div id="footer-links" class="row">
+              <div class="col-xl-4 col-lg-3">
+                <h6 class="mb-2">
+                  <a
+                    href="#menu-links"
+                    class="d-block text-center text-gray-700 text-uppercase dropdown-toggle d-lg-none py-2"
+                    data-bs-toggle="collapse"
+                    >Menu</a
+                  >
+                </h6>
+                <div
+                  id="menu-links"
+                  class="collapse d-lg-block"
+                  data-bs-parent="#footer-links"
+                  >
+                  <ul class="nav navLink flex-column text-muted text-center text-md-left pb-lg-1 mb-lg-3">
+                    <li class="nav-item">
+                      <a href="#bilan" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Les infos</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#tarifs" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Tarifs</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#contact" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>   
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <h6 class="mb-2">
+                  <a
+                    href="#policy-links"
+                    class="d-block text-center text-uppercase text-gray-700 dropdown-toggle d-lg-none py-2"
+                    data-bs-toggle="collapse"
+                    >Conditions et Politique</a
+                  >
+                </h6>
+                <div
+                  id="policy-links"
+                  class="collapse d-lg-block"
+                  data-bs-parent="#footer-links"
+                  >
+                  
+                  <ul class="nav navLink flex-column text-muted text-center text-md-left mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a href="cgu.html" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Conditions d'utilisation</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="rgpd.html" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Informations RGPD</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>  
+              <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
+                <div class="pt-2">
+                  <div class="nav flex-column align-items-center">
+                    <a href="javascript:openAxeptioCookies()" class="nav-link d-inline-block px-0 pt-1 pb-2">Gestion des cookies</a>
+                  </div>
+                  <div class="nav flex-column align-items-center">
+                    <a href="mailto:axium@contact.fr" class="nav-link d-inline-block">
+                      axium@contact.fr
+                    </a>
+                  </div>
+                  <div class="nav flex-column align-items-center mb-2 mb-lg-0">
+                      <a href="#" target="_blank" class="nav-link d-inline-block px-0 pt-1 pb-2" aria-label="linkedIn-link"
+                        >
+                        <i class="bx bxl-linkedin-square align-middle fs-3"></i>
+                      </a>
+                    </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-6 col-md-4 col-lg-2">
-    
-            <!-- Heading -->
-            <h6 class="fw-bold text-uppercase text-gray-700">
-              Services
-            </h6>
-    
-            <!-- List -->
-            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Documentation
-                </a>
-              </li>
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Changelog
-                </a>
-              </li>
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Pagebuilder
-                </a>
-              </li>
-              <li>
-                <a href="#!" class="text-reset">
-                  UI Kit
-                </a>
-              </li>
-            </ul>
-    
-          </div>
-          <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
-    
-            <!-- Heading -->
-            <h6 class="fw-bold text-uppercase text-gray-700">
-              Connect
-            </h6>
-    
-            <!-- List -->
-            <ul class="list-unstyled text-muted mb-0">
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Page Builder
-                </a>
-              </li>
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  UI Kit
-                </a>
-              </li>
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Styleguide
-                </a>
-              </li>
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Documentation
-                </a>
-              </li>
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Changelog
-                </a>
-              </li>
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Documentation
-                </a>
-              </li>
-              <li>
-                <a href="#!" class="text-reset">
-                  Changelog
-                </a>
-              </li>
-            </ul>
-    
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-    
-            <!-- Heading -->
-            <h6 class="fw-bold text-uppercase text-gray-700">
-              Legal
-            </h6>
-    
-            <!-- List -->
-            <ul class="list-unstyled text-muted mb-0">
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Documentation
-                </a>
-              </li>
-              <li class="mb-3">
-                <a href="#!" class="text-reset">
-                  Changelog
-                </a>
-              </li>
-              <li>
-                <a href="#!" class="text-reset">
-                  Pagebuilder
-                </a>
-              </li>
-            </ul>
-    
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
+        </div>
+      </div>
     </footer>
 
     <!-- JAVASCRIPT -->
@@ -963,6 +1066,8 @@
     
     <!-- Theme JS -->
     <script src="./assets/js/theme.bundle.js"></script>
+
+
 
   </body>
 </html>
